@@ -2,10 +2,10 @@ package com.github.gabriel_dias_santiago.study_apir.model;
 
 public class Product {
     private String nome;
-    private int id;
+    private Long id;
 
 
-    public Product(String nome, int id) {
+    public Product(String nome, Long id) {
         this.nome = nome;
         this.id = id;
     }
@@ -14,7 +14,7 @@ public class Product {
         return nome;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
@@ -22,7 +22,7 @@ public class Product {
         this.nome = nome;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
