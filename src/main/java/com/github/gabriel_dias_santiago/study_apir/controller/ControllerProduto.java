@@ -1,4 +1,4 @@
-package com.github.gabriel_dias_santiago.study_apir;
+package com.github.gabriel_dias_santiago.study_apir.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
