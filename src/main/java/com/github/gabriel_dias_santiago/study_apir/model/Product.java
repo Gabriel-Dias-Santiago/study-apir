@@ -1,12 +1,17 @@
 package com.github.gabriel_dias_santiago.study_apir.model;
 
+import java.math.BigDecimal;
+
 public class Product {
-    private String nome;
     private Long id;
+    private String nome;
+    private BigDecimal valor;
 
+    public Long getId() {
+        return id;
+    }
 
-    public Product(String nome, Long id) {
-        this.nome = nome;
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -14,18 +19,15 @@ public class Product {
         return nome;
     }
 
-    public Long getId() {
-        return id;
-    }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public BigDecimal getValor(){
+        return valor;
     }
 
-    
-
+    public void setValor(BigDecimal valor){
+        this.valor = valor;
+    }
 }

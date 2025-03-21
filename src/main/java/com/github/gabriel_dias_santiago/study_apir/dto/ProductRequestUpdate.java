@@ -1,4 +1,4 @@
-package com.github.wemilli.study_apir.dto;
+package com.github.gabriel_dias_santiago.study_apir.dto;
 
 import java.math.BigDecimal;
 
